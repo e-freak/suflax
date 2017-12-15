@@ -13,7 +13,7 @@ import remove from 'del';
 
 const mainSourceDir   = 'src/main/js';
 const testSourceDir   = 'src/test/js';
-const mainTargetDir   = 'app/script';
+const mainTargetDir   = 'build';
 const testTargetDir   = 'cache/test';
 
 gulp.task('clean', [ 'clean-main', 'clean-test' ], () => {
